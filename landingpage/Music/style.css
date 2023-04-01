@@ -2,3 +2,50 @@ body {
   background-color: #C1C7C3;
 }
 
+img{ 
+			width:400px;
+			heigth:450px; 
+	}
+	
+h2	{
+			text-align:justify;
+			font-family: Georgia, Baskerville, serif;
+			font-size:1.5em;
+			color:#3397C6;
+			text-transform:uppercase;
+			text-shadow: 2px 2px black
+}
+
+.link {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+ul.link, ul.link2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px; line-height: 50px;
+	background:#3397C6;
+	font-family: Georgia, Baskerville, serif;
+	font-size: 18px;
+}
+
+ul.link li, ul.link2 li {
+	border-right:1px solid #333333;
+	float:left;
+}
+
+ul.link a, ul.link2 a {
+	display:block;
+	padding:0 50px;
+	color:white;
+	text-decoration:none;
+}
+
+ul.link a:hover,
+ul.link li.current a,
+ul.link2 a:hover,
+ul.link2 li.current a {
+	background:#3397C6;
+}
